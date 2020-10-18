@@ -30,6 +30,12 @@ brew services stop mongodb-community@4.4
 mongo
 ```
 
+## MongoDB port finding: 
+
+```
+sudo lsof -iTCP -sTCP:LISTEN | grep mongo
+```
+
 ## Show all Databases: 
 
 ```
