@@ -12,8 +12,23 @@ All necessary and important MongoDB command lines that we must know in order to 
 
 - As a non-relational database schema, a document is stored as a big JSON blob with no particular format or schema. 
 
+## Starting a localhost/community server: 
 
+```
+brew services start mongodb-community@4.4
+```
 
+## Stopping a localhost MongoDB server: 
+
+```
+brew services stop mongodb-community@4.4
+```
+
+- To run Mongo
+
+```
+mongo
+```
 
 ## Show all Databases: 
 
